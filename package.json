@@ -1,0 +1,18 @@
+{
+  "name": "angelusproductions-server",
+  "version": "1.0.0",
+  "description": "the server for angelusproductions.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Corey Angelus",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1"
+  }
+}
