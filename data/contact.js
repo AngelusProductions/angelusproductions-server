@@ -26,10 +26,10 @@ async function sendContactForm(name, email, message) {
       }
     });
 
-    return { isSuccess: true, errors: null }
+    return { isSuccess: true, error: null }
   } catch (e) {
     console.log(e);
-    return { isSuccess: false, errors: e }
+    return { isSuccess: false, error: e }
   }
 }
 

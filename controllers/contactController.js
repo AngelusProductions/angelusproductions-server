@@ -1,4 +1,4 @@
-const { sendJson } = require('../handlers/util');
+const { sendJson } = require('../utils');
 const { sendContactForm } = require('../data/contact');
 
 exports.sendContactForm = async (req, res) => {
